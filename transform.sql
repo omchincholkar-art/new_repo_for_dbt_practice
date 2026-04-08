@@ -5,4 +5,4 @@ SELECT
     city,
     salary,
     salary / 12 AS monthly
-  FROM mazatable;
+  FROM "DEMO"."PUBLIC"."MAZATABLE";
