@@ -1,16 +1,12 @@
-name: om_dbt_project
-profile: om_dbt_project
-version: '1.0.0'
+name: 'dbt_practice_only'
+version: '1.0'
 config-version: 2
 
+profile: 'default'
+
 models:
-  om_dbt_project:
-    +materialized: view
-
-    staging:
-      +materialized: view
-      +schema: staging
-
-    marts:
-      +materialized: table
-      +schema: marts
+  dbt_practice_only:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
